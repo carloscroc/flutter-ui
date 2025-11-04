@@ -132,5 +132,6 @@ class Styles {
       ),
     );
   }
+
   static final Color glassFill = Colors.white.withAlpha(153);
 }

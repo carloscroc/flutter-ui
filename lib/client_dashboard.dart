@@ -394,16 +394,16 @@ class _StatCard extends StatelessWidget {
         color: Styles.surfaceAccent,
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
-              BoxShadow(
-              color: Styles.surfaceHighlight.withAlpha(204),
-              offset: const Offset(-2, -2),
-              blurRadius: 6,
-            ),
-            BoxShadow(
-              color: Styles.neutralShadow.withAlpha(64),
-              offset: const Offset(2, 2),
-              blurRadius: 6,
-            ),
+          BoxShadow(
+            color: Styles.surfaceHighlight.withAlpha(204),
+            offset: const Offset(-2, -2),
+            blurRadius: 6,
+          ),
+          BoxShadow(
+            color: Styles.neutralShadow.withAlpha(64),
+            offset: const Offset(2, 2),
+            blurRadius: 6,
+          ),
         ],
       ),
       child: Column(
@@ -504,7 +504,7 @@ class _ActivityCard extends StatelessWidget {
           color: Styles.surfaceAccent,
           borderRadius: BorderRadius.circular(16),
           boxShadow: [
-              BoxShadow(
+            BoxShadow(
               color: Styles.surfaceHighlight.withAlpha(204),
               offset: const Offset(-2, -2),
               blurRadius: 6,
@@ -521,7 +521,7 @@ class _ActivityCard extends StatelessWidget {
             Container(
               width: 40,
               height: 40,
-                decoration: BoxDecoration(
+              decoration: BoxDecoration(
                 color: Styles.sage.withAlpha(38),
                 borderRadius: BorderRadius.circular(12),
               ),
@@ -603,7 +603,7 @@ class _CalendarDay extends StatelessWidget {
             borderRadius: BorderRadius.circular(22),
             boxShadow: today
                 ? [
-                      BoxShadow(
+                    BoxShadow(
                       color: Styles.warmAmber.withAlpha(71),
                       blurRadius: 8,
                       offset: const Offset(0, 2),
@@ -665,7 +665,7 @@ class ProgressRingPainter extends CustomPainter {
     final radius = size.width / 2;
 
     final backgroundPaint = Paint()
-  ..color = Styles.neutralShadow.withAlpha(46)
+      ..color = Styles.neutralShadow.withAlpha(46)
       ..strokeWidth = 10
       ..style = PaintingStyle.stroke
       ..strokeCap = StrokeCap.round;
