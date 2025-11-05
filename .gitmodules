@@ -1,0 +1,6 @@
+[submodule "tools/spec-kit"]
+	path = tools/spec-kit
+	url = https://github.com/github/spec-kit.git
+[submodule "tools/superpowers"]
+	path = tools/superpowers
+	url = https://github.com/obra/superpowers.git
