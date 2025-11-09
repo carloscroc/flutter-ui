@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'client_dashboard.dart';
 import 'styles.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 void main() {
   runApp(const MyApp());
@@ -129,7 +130,16 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Card(
                     child: ListTile(
-                      leading: const CircleAvatar(child: Icon(Icons.person)),
+                      leading: CircleAvatar(
+                        child: SvgPicture.asset(
+                          'assets/icons/avatar.svg',
+                          colorFilter: ColorFilter.mode(
+                            Theme.of(context).colorScheme.onPrimary,
+                            BlendMode.srcIn,
+                          ),
+                          fit: BoxFit.contain,
+                        ),
+                      ),
                       title: const Text('List Tile'),
                       subtitle: const Text(
                         'Use cards to group related information.',
