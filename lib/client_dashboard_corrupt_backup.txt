@@ -1,0 +1,7 @@
+Backup of original `lib/client_dashboard.dart` before automated replacement.
+Location: lib/client_dashboard.dart
+Created: 2025-11-11
+
+Note: The original file was corrupted/duplicated. A cleaned implementation
+from `client_dashboard_fixed.dart` has been written into `lib/client_dashboard.dart`.
+If you need the full original contents, retrieve them from Git history.

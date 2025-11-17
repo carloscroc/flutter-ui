@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'client_dashboard.dart';
+import 'client_dashboard_clean.dart';
 import 'styles.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
